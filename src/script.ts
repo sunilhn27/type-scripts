@@ -1,1 +1,2 @@
-console.log("first")
+//let myname :string = "Data";
+console.log("myname");
