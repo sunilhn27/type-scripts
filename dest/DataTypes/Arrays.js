@@ -13,6 +13,9 @@ for (const emp of employees) {
         console.log("not Present");
     }
 }
+for (let i = 0; i < employees.length; i++) {
+    console.log("From Loop" + employees[i]);
+}
 //define multipule types
 let randomData;
 randomData = ["sunil", 29, false];
