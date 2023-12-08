@@ -17,5 +17,11 @@ car = {
     color: "white"
 };
 console.log(employee1);
-console.log(person);
+console.log(person.age);
 console.log(car);
+const greeting1 = () => {
+    return "";
+};
+// const methodname:() =>datatype =()=>{
+// return "";
+// }
