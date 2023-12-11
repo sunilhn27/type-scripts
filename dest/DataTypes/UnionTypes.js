@@ -10,7 +10,7 @@ function union(a, b) {
         throw new Error("paramtre not matching");
     }
 }
-function add(a, b) {
+function addition1(a, b) {
     if (typeof a === 'number' && typeof b === 'number') {
         return a + b;
     }
@@ -20,4 +20,4 @@ function add(a, b) {
     throw new Error('Parameters must be numbers or strings');
 }
 console.log(union("sunil", "hn"));
-console.log(add(2, 5));
+console.log(addition1(2, 5));

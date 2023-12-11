@@ -11,7 +11,7 @@ function union(a:any, b:any){
 
 
 
-function add(a: number | string, b: number | string) {
+function addition1(a: number | string, b: number | string) {
     if (typeof a === 'number' && typeof b === 'number') {
         return a + b;
     }
@@ -23,4 +23,4 @@ function add(a: number | string, b: number | string) {
 
 
 console.log(union("sunil","hn"))
-console.log(add(2,5));
+console.log(addition1(2,5));
