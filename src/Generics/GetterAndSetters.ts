@@ -12,7 +12,6 @@ class Iphone {
     public setModel(model: number): void {
         this.model = model;
     }
-
     public getYear(): number {
         return this.year;
     }
