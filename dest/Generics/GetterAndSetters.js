@@ -33,3 +33,4 @@ class Iphone {
 }
 let col = new Iphone();
 console.log(col.setColor("Red"));
+console.log(col.getColor());

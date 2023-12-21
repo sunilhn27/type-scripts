@@ -12,6 +12,7 @@ class Iphone {
     public setModel(model: number): void {
         this.model = model;
     }
+
     public getYear(): number {
         return this.year;
     }
@@ -39,6 +40,8 @@ class Iphone {
 
 }
 
-let col = new Iphone();
+let col = new Iphone()
 
 console.log(col.setColor("Red"))
+
+console.log(col.getColor())
