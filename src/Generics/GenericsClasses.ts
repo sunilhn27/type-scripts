@@ -16,13 +16,13 @@ class SellCourses<T>{
         this.cart.push(produc);
     }
 
-    getCart():T[]{
+    getCart(): T[] {
         return this.cart;
     }
 }
 
 
-let a =new SellCourses<string>();
+let a = new SellCourses<string>();
 
 a.addToCarts("sunil")
 a.addToCarts("Raju")
