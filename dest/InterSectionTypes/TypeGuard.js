@@ -1,6 +1,6 @@
 "use strict";
 //Summary: in this tutorial, you will learn about the Type Guard in TypeScript to narrow down the type of a variable.
-function add(a, b) {
+function addi(a, b) {
     if (typeof a === 'number' && typeof b === 'number') {
         return a + b;
     }
@@ -9,5 +9,5 @@ function add(a, b) {
     }
     throw new Error('Invalid arguments. Both arguments must be either numbers or strings.');
 }
-console.log(add("1", "3"));
+console.log(addi("1", "3"));
 ///

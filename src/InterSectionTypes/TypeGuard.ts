@@ -2,7 +2,7 @@
 
 type alphanumericc = string | number;
 
-function add(a: alphanumericc, b: alphanumericc) {
+function addi(a: alphanumericc, b: alphanumericc) {
     if (typeof a === 'number' && typeof b === 'number') {
         return a + b;
     }
@@ -14,8 +14,7 @@ function add(a: alphanumericc, b: alphanumericc) {
     throw new Error('Invalid arguments. Both arguments must be either numbers or strings.');
 }
 
-console.log(add("1","3"))
-
+console.log(addi("1","3"))
 
 
 ///
