@@ -37,7 +37,6 @@ class Iphone {
         this.screenSize = screenSize;
     }
 
-
 }
 
 let col = new Iphone()
