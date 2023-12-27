@@ -4,7 +4,6 @@ interface Author<T ,U>{
 }
 //let author1: Author<string, number> = { age: 29, name: "Sunil" };
 
-
 let author:Author<string,number>= {name:"Sunil",age:19}
 
 

@@ -14,9 +14,7 @@ class Persons {
         this._firstName = firstName;
     }
 
-
 }
-
 
 class AnotherClass {
     private person: Persons;
